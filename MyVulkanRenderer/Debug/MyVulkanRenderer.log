@@ -1,0 +1,7 @@
+﻿  Source.cpp
+Source.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "private: void __thiscall TriangleRenderer::initWindow(void)" (?initWindow@TriangleRenderer@@AAEXXZ)
+Source.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function "private: void __thiscall TriangleRenderer::initWindow(void)" (?initWindow@TriangleRenderer@@AAEXXZ)
+Source.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "private: void __thiscall TriangleRenderer::initWindow(void)" (?initWindow@TriangleRenderer@@AAEXXZ)
+Source.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function "private: void __thiscall TriangleRenderer::mainLoop(void)" (?mainLoop@TriangleRenderer@@AAEXXZ)
+Source.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function "private: void __thiscall TriangleRenderer::mainLoop(void)" (?mainLoop@TriangleRenderer@@AAEXXZ)
+C:\Users\quaz9\source\repos\MyVulkanRenderer_2021\Debug\MyVulkanRenderer.exe : fatal error LNK1120: 5 unresolved externals
